@@ -7,7 +7,7 @@
 body {
     background-image: url('noise.svg');
     color: #acb0d1;
-    width: 45vw;
+    width: 50vw;
     margin: auto;
 }
 
@@ -25,6 +25,17 @@ a {
     text-decoration: none;
 }
 
+.avatar {
+    float: right;
+    margin-left: 15px;
+}
+
 .header {
-    display: flex;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.links {
+    font-size: 20px;
 }

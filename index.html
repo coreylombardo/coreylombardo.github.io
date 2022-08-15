@@ -11,33 +11,49 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <title>semaphore</title>
 
+        <!-- discord embed stuff -->
+        <meta property="og:title" content="semaphore.site" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://semaphore.site" />
+        <meta property="og:image" content="avatar.png" />
+        <meta property="og:description" content="@bluerinako" />
+        <meta name="theme-color" content="#757dd3">
+
     </head>
 
     <body>
 
         <div class="page">
 
-            <div class="header"> <!-- header and toggles -->
-                <h1>semaphore</h1>
-            </div>
+            <!-- header, links and toggles -->
+            <div class="header">
 
-            <div class="links"> <!-- links -->        
-                <a href="https://github.com/coreylombardo" target="_blank">GitHub</a>
-                /
-                <a href="https://twitter.com/bluerinako" target="_blank">Twitter</a>
+                <h1>semaphore</h1>
+
+                <div class="links">
+                    <a href="https://github.com/coreylombardo" target="_blank">GitHub</a>
+                    /
+                    <a href="https://twitter.com/bluerinako" target="_blank">Twitter</a>
+                </div>
+
             </div>
 
             <div class="content"> 
 
                 <!-- about -->
-                <h2 data-i18n-key="about-me-title">About Me</h2>
-                <p data-i18n-key="about-me">I'm an aspiring front-end web developer and translator from the U.S. mainly focusing on Russian-to-English translations, but I'm also studying English-to-Russian translation in my free-time. You can find links relevant to my work above, or you can contact me via <a href="mailto: address@domain.tld">E-mail</a> or <a href="https://t.me/semaphore184">Telegram</a>.</p>
+                <div class="about">
+
+                    <img src="avatar.png" style="width: 150px; height: 150px;" class="avatar">
+                    <h2 data-i18n-key="about-me-title">About Me</h2>
+                    <p data-i18n-key="about-me">I'm an aspiring front-end web developer and translator from the U.S. mainly focusing on Russian-to-English translations, but I'm also studying English-to-Russian translation in my free-time. You can find links relevant to my work above, or you can contact me via <a href="mailto: address@domain.tld">E-mail</a> or <a href="https://t.me/semaphore184">Telegram</a>.</p>
+
+                </div>
 
                 <!-- projects -->
                 <h2 data-i18n-key="projects-title">Projects</h2>
                 <ul>
                     <li data-i18n-key="this-website"><a href="https://semaphore.site">This website</a></li>
-                    <li><a href="https://github.com/coreylombardo/osu-wiki">osu!wiki EN->RU</a></li>
+                    <li><a href="https://github.com/coreylombardo/osu-wiki" target="_blank">osu!wiki EN->RU</a></li>
                     <li data-i18n-key="more-coming-soon">More coming soon.</li>
                 </ul>
 
