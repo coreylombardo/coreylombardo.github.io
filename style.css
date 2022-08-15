@@ -5,10 +5,10 @@
 }
 
 body {
-    background: #16161c;
-    color: #9c9fba;
-    padding-left: 350px;
-    padding-right: 350px;
+    background-image: url('noise.svg');
+    color: #acb0d1;
+    width: 45vw;
+    margin: auto;
 }
 
 h1 {
@@ -16,8 +16,13 @@ h1 {
     font-size: 40px;
 }
 
-h2, a {
-    color: #8a91e0;
+h2 {
+    color: #c5ccff;
+}
+
+a {
+    color: #757dd3;
+    text-decoration: none;
 }
 
 .header {
