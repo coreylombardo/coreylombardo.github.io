@@ -42,6 +42,9 @@ a {
 
 /* mobile stuff */
 @media (max-width: 750px) {
+    body {
+        width: 75vw;
+    }
     .header {
         flex-direction: column;
     }
