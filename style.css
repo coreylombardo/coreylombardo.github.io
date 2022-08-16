@@ -39,3 +39,16 @@ a {
 .links {
     font-size: 20px;
 }
+
+/* mobile stuff */
+@media (max-width: 750px) {
+    .header {
+        flex-direction: column;
+    }
+    .avatar {
+        float: none;
+        display: block;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+}
