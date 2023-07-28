@@ -1,33 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
 * {
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Libre Baskerville', serif;
 }
 
 body {
-    background-image: url('noise.svg');
-    color: #acb0d1;
-    width: 50vw;
+    /* background-image: url('noise.svg'); */
+    background-color: #1A1423;
+    color: #F7F3E3;
+    width: 60vw;
     margin: auto;
 }
 
 h1 {
-    color: #c5ccff;
+    /* name banner */
+    color: #D91E36;
     font-size: 40px;
 }
 
 h2 {
-    color: #c5ccff;
+    /* headers */
+    color: #EC5766;
 }
 
 a {
-    color: #757dd3;
+    color: #EF7674;
     text-decoration: none;
 }
 
-.avatar {
+figure {
     float: right;
     margin-left: 15px;
+    margin-right: auto;
+}
+
+figcaption {
+    text-align: center;
 }
 
 .header {
@@ -38,6 +46,12 @@ a {
 
 .links {
     font-size: 20px;
+}
+
+.anime {
+    text-align: center;
+    padding-top: 150vw;
+    padding-bottom: 10vw;
 }
 
 /* mobile stuff */
