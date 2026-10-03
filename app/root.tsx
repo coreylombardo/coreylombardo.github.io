@@ -7,6 +7,7 @@ import {
   ScrollRestoration,
 } from "react-router";
 
+import Directory from "./components/directory";
 import Navbar from "./components/navbar";
 
 import type { Route } from "./+types/root";
@@ -62,6 +63,9 @@ export default function App() {
       </div>
       
       <div id="content">
+        <div id="directory">
+          <Directory />
+        </div>
         <Outlet/>
       </div>
 
