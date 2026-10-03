@@ -28,11 +28,32 @@ body {
 .sidenav {
   float: left;
   width: 18vw;
+  height: 100vh;
   background:  	#F9F1F1;
   background: linear-gradient(90deg,rgba(249, 241, 241, 1) 0%, rgba(249, 241, 241, 1) 80%, rgba(176, 176, 176, 1) 100%);
   position: relative;
-  height: 100vh;
-  padding: 30px 20px;
+  padding: 10px 10px;
+
+  .navbar-icon {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 16px;
+  }
+
+  ul li {
+    list-style-type: none;
+    margin: 5px 0;
+  }
+
+  ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
 }
 
 .intro {
@@ -42,24 +63,12 @@ body {
 
 .contactLinks {
   font-size: 64px;
-}
+  text-align: center;
 
-ul {
-  padding: 0;
-}
-
-ul li {
-  list-style-type: none;
-  margin: 5px 0;
-}
-
-ul li a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 18px;
-  display: block;
-  padding: 4px 12px;
-  border-radius: 6px;
+  .contact-icon {
+    display: inline-block;
+    margin: 0 15px;
+  }
 }
 
 ul li a:hover {
