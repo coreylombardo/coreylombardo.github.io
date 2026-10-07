@@ -20,7 +20,7 @@ export default function Home() {
       </div>
 
       <div className="contactLinks">
-        <a href="mailto:contact@domain.com">
+        <a href="mailto:corey@lombardo.lol">
           <Icon icon="mdi:email" className="contact-icon" />
         </a>
         <Nt to="https://www.linkedin.com/in/coreylombardo/">
