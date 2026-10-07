@@ -2,11 +2,21 @@
 import { useLocation, Link } from "react-router";
 
 export default function Directory() {
-    const  location = useLocation();
+    const location = useLocation();
 
-    return (
-        <span className="directory">
-            <Link to="/">futuredomain</Link> → <Link to={location.pathname}>{location.pathname}</Link>
-        </span>
-    );
+    if (location.pathname === "/") {
+        return (
+            <span className="directory">
+                <Link to="/">{window.location.host}</Link> → /
+            </span>
+        );
+    } else {
+        return (
+            <span className="directory">
+                <Link to="/">{window.location.host}</Link> → <Link to={location.pathname}>{location.pathname}</Link>
+            </span>
+        );
+    }
 }
+
+// need to track "degree" of route so that it can make clickable links for degree - 1 

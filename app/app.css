@@ -26,14 +26,46 @@ body {
   #directory {
     font-size: 28px;
     margin-bottom: 5vh;
+  }
 
-    a:hover {
-      background: #EDE6E6;
+  #home {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+
+    .intro {
+      text-align: center;
+      font-size: 20px;
+      margin: 0 5vw;
     }
 
-    a:active {
-      background: #D9D2D2;
+    .contactLinks {
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 72px;
+      text-align: center;
+
+      .contact-icon {
+        display: inline-block;
+        margin: 0 15px;
+      }
     }
+
+    .disclaimer {
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+
+  a:hover {
+    background: #EDE6E6;
+  }
+
+  a:active {
+    background: #D9D2D2;
   }
 
   margin: 5vh 5vw;
@@ -68,22 +100,20 @@ body {
     padding: 8px 12px;
     border-radius: 6px;
   }
-}
 
-.intro {
-    text-align: center;
-    font-size: 20px;
-    margin: 0 5vw;
-}
-
-.contactLinks {
-  font-size: 64px;
-  text-align: center;
-
-  .contact-icon {
-    display: inline-block;
-    margin: 0 15px;
+  ul li a:hover {
+    background: linear-gradient(90deg,rgba(237, 230, 230, 1) 0%, rgba(237, 230, 230, 1) 40%, rgba(0, 0, 0, 0) 90%);
   }
+
+  ul li a:active {
+    background: linear-gradient(90deg,rgba(217, 210, 210, 1) 0%, rgba(217, 210, 210, 1) 40%, rgba(0, 0, 0, 0) 90%);
+  }
+}
+
+
+
+a {
+  color: #707070;
 }
 
 ul li a:hover {
