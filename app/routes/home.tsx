@@ -32,7 +32,7 @@ export default function Home() {
       </div>
 
       <div className="disclaimer">
-        This site is currently in a beta phase. I'm mostly just making sure I can deploy it properly on GitHub Pages right now.
+        This site is currently in a beta phase. I'm mostly just making sure I can deploy it properly right now.
       </div>
     </div>
   );
